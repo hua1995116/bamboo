@@ -1,0 +1,206 @@
+
+
+/*搜索框*/
+#search_b{
+	width: 61px;
+	height: 63px;
+	background: url(../images/ico/search.png) no-repeat;
+	position: fixed;
+	bottom: 230px;
+	cursor: pointer;
+	z-index: 1200;
+	margin:0 0 -60px -50px;
+}
+.search_area {
+	width:240px;
+	height:50px;
+	background-color:rgb(42,52,36);
+	overflow:hidden;
+	position:relative;
+	left: -240px;
+	display: none;
+}
+.search_area form {
+	width:230px;
+	height:40px;
+	border:rgb(42,52,36) solid 5px;
+	margin:auto auto;
+}
+.search_box {
+	width:166px;
+	height:36px;
+	line-height:24px;
+	font-size:14px;
+	float:left;
+	color:#ccc;
+	background: rgb(82,112,66);
+	padding: 2px;
+	letter-spacing: 1px;
+}
+.search_submit {
+	width:60px;
+	height:40px;
+	cursor:pointer;
+	background:url(../images/ico/search_button.png) no-repeat;
+	overflow:hidden;
+}
+.search_submit:hover {
+	background:url(../images/ico/search_button.png) 0 40px;
+}
+/*搜索框完*/
+
+/*登陆按钮*/
+#login_b{
+	width: 61px;
+	height: 63px;
+	background: url(../images/ico/login.png) no-repeat;
+	position: fixed;
+	bottom: 160px;
+	cursor: pointer;
+	z-index: 1200;
+	margin:0 0 -62px -50px;
+}
+#after_login_b{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 160px;
+	z-index: 10;
+	cursor: pointer;
+	z-index: 1200;
+	margin:0 0 -50px -45px;
+}
+._face{
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.user_operate {
+	position:relative;
+	top:-50px;
+	left:-200px;
+	width:196px;
+	height:186px;
+	display: none;
+	background: #aaa;
+	border: 2px solid #5b5140;
+}
+.hello{
+	position:relative;
+	top:10px;
+}
+.hello p {
+	text-align:center;
+	font-size:14px;
+}
+.hello strong {
+	color:#373934;
+}
+.header_name {
+	width:160px;
+	height:30px;
+	background-color:#5b5140;
+	line-height:30px;
+	text-align:center;
+	font-family:"Microsoft Yahei" !important;
+	font-size:16px !important;
+	color:#fff;
+	margin:20px auto 20px auto;
+	overflow:hidden;
+}
+.header_name:hover {
+	background-color:#5b5140;
+}
+.manage, .up {
+	width:160px;
+	height:30px;
+	background-color:#373934;
+	line-height:30px;
+	text-align:center;
+	font-family:"Microsoft Yahei" !important;
+	font-size:16px !important;
+	color:#fff;
+	margin:0 auto 0 auto;
+	cursor:pointer;
+}
+.manage:hover, .up:hover {
+	background-color:#5b5140;
+}
+.logout {
+	width:160px;
+	height:30px;
+	background-color:#373934;
+	line-height:30px;
+	text-align:center;
+	font-family:"Microsoft Yahei" !important;
+	font-size:16px !important;
+	color:#fff;
+	margin:20px auto 20px auto;
+	cursor:pointer;
+}
+.logout:hover{
+	background-color:#5b5140;
+}
+
+/*登陆框*/
+#login_area {
+	display:none;
+}
+#login_area form {
+	width:250px;
+	height:auto;
+}
+#login_area form ul li {
+	margin:15px 0 0 5px;
+	font-size:16px;
+}
+#login_area form ul li input {
+	width:170px;
+	height:26px;
+	font-size:16px;
+	border:1px solid #999;
+	line-height:22px;
+	padding:0 2px;
+}
+input.remember {
+	display:block;
+	float:left;
+	margin:20px 0 0 68px;
+}
+#login_area form span {
+	display:block;
+	margin:17px 0 0 5px;
+	float:left;
+}
+input.login_sub {
+	display:block;
+	margin:50px 0 0 69px;
+	width:170px;
+	height:30px;
+	cursor:pointer;
+	background:#5A503F;
+	color:#fff;
+	letter-spacing:10px;
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+	border-radius:5px;
+}
+input.login_sub:hover {
+	background:#8A896D;
+}
+.tip{
+	width: 200px;
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-left: 30px;
+}
+.tip a{
+	color: #fff;
+	background: #5A503F;
+	padding: 2px 5px;
+	margin: 0 4px;
+	border-radius: 5px;
+}
+/*登陆框完*/

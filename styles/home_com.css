@@ -1,0 +1,82 @@
+
+
+#member_body_area {
+	width:920px;
+	margin: 120px auto 0 auto;
+	position:relative;
+}
+.member_header {
+	width:920px;
+	height:126px;
+	background:#373934;
+	z-index:3;
+	position: relative;
+	top: 10px;
+}
+.member_header ul {
+	width:880px;
+	height:100px;
+	margin:0 auto;
+	position:relative;
+	top:15px;
+}
+.member_header ul li.myhome, .member_header ul li.mybamboo, .member_header ul li.mycomment, .member_header ul li.mycollect, .member_header ul li.myfriend, .member_header ul li.mydata {
+	width:120px;
+	height:100px;
+	float:left;
+}
+.member_header ul li.myhome {
+	background:url(../images/member_nav.png) 0 0 no-repeat;
+}
+.member_header ul li.mybamboo {
+	background:url(../images/member_nav.png) -120px 0 no-repeat;
+	margin-left:32px;
+}
+.member_header ul li.mycomment {
+	background:url(../images/member_nav.png) -240px 0 no-repeat;
+	margin-left:32px;
+}
+.member_header ul li.mycollect {
+	background:url(../images/member_nav.png) -360px 0 no-repeat;
+	margin-left:32px;
+}
+.member_header ul li.myfriend {
+	background:url(../images/member_nav.png) -480px 0 no-repeat;
+	margin-left:32px;
+}
+.member_header ul li.mydata {
+	background:url(../images/member_nav.png) -600px 0 no-repeat;
+	margin-left:32px;
+}
+.member_header ul li.myhome:hover {
+	background:url(../images/member_nav.png) 0 -100px no-repeat;
+}
+.member_header ul li.mybamboo:hover {
+	background:url(../images/member_nav.png) -120px -100px no-repeat;
+}
+.member_header ul li.mycomment:hover {
+	background:url(../images/member_nav.png) -240px -100px no-repeat;
+}
+.member_header ul li.mycollect:hover {
+	background:url(../images/member_nav.png) -360px -100px no-repeat;
+}
+.member_header ul li.myfriend:hover {
+	background:url(../images/member_nav.png) -480px -100px no-repeat;
+}
+.member_header ul li.mydata:hover {
+	background:url(../images/member_nav.png) -600px -100px no-repeat;
+}
+.member_header ul li a {
+	width:120px;
+	height:24px;
+	display:block;
+	padding-top:80px;
+	padding-bottom:6px;
+	text-align:center;
+	color:#000;
+	font-family:"Microsoft Yahei",verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+.member_header ul li a:hover {
+	text-decoration:underline;
+}

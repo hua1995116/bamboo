@@ -1,0 +1,191 @@
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.png);
+}
+
+#top{
+	width: 100%;
+	height: 100px;
+}
+
+
+#body_area{
+	width: 920px;
+	margin: 120px auto 0 auto;
+	position: relative;
+}
+
+#member_body {
+	width:100%;
+	height:100%;
+	background:url(../images/body.jpg);
+	/*background:url(../images/body_bg.jpg);
+	background-position:center top;
+	background-repeat:repeat-y;*/
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#member_body_area {
+	width:920px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.member_header {
+	width:916px;
+	height:120px;
+	background:#dedede;
+	border: 2px solid #373934;
+}
+.member_header ul {
+	width:690px;
+	height:100px;
+	margin:0 auto;
+	position:relative;
+	left:0;
+	top:10px;
+}
+.member_header ul li.admin_show, .member_header ul li.admin_comment, .member_header ul li.admin_user, .member_header ul li.admin_score {
+	width:120px;
+	height:100px;
+	float:left;
+}
+.member_header ul li.admin_show {
+	background:url(../images/member_nav.png) -120px 0 no-repeat;
+}
+.member_header ul li.admin_comment {
+	background:url(../images/member_nav.png) -240px 0 no-repeat;
+	margin-left:70px;
+}
+.member_header ul li.admin_user {
+	background:url(../images/member_nav.png) -600px 0 no-repeat;
+	margin-left:70px;
+}
+.member_header ul li.admin_score {
+	background:url(../images/member_nav.png)  -360px 0 no-repeat;
+	margin-left:70px;
+}
+.member_header ul li.admin_show:hover {
+	background:url(../images/member_nav.png) -120px -100px no-repeat;
+}
+.member_header ul li.admin_comment:hover {
+	background:url(../images/member_nav.png) -240px -100px no-repeat;
+}
+.member_header ul li.admin_user:hover {
+	background:url(../images/member_nav.png) -600px -100px no-repeat;
+}
+.member_header ul li.admin_score:hover {
+	background:url(../images/member_nav.png) -360px -100px no-repeat;
+}
+.member_header ul li a {
+	width:120px;
+	height:24px;
+	display:block;
+	padding-top:80px;
+	padding-bottom:6px;
+	text-align:center;
+	color:#fff;
+	font-family:"Microsoft Yahei",verdana, arial, helvetica, sans-serif;
+}
+.member_header ul li a:hover {
+	text-decoration:underline;
+}
+.admin_body {
+	width:920px;
+	min-height:500px;
+	background:#dedede;
+	margin:10px auto;
+}
+.admin_title {
+	width:920px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background:#373934;
+	margin:0px auto;
+	text-align: center;
+}
+.admin_body table {
+	width:96%;
+	margin:20px auto;
+	text-align:center;
+	background:#363636;
+	margin-bottom:0px;
+}
+.admin_body table tr {
+	background:#fff;
+}
+.admin_body table tr th {
+	font-size:14px;
+}
+.admin_body table tr th, .admin_body table tr td {
+	height:30px;
+	line-height:30px;
+}
+.admin_body tr td a {
+	text-decoration:none;
+	color:#000;
+}
+.admin_body tr td a:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+.accuse_ico {
+	position:relative;
+	top:5px;
+	left:-5px;
+}
+.check, .checked, .modify, .delete {
+	float:left;
+	height:20px;
+	line-height:20px;
+	background:#373934;
+	padding:0 4px 0 4px;
+	margin-left:10px;
+	cursor:pointer;
+	color:#fff;
+}
+.checked {
+	background:#545454;
+	cursor:default;
+	color:#fff;
+}
+
+.star_model, .star_color, .star_material, .star_fashion {
+	margin-left:10px;
+	position: relative;
+	top: 4px;
+}
+
+/*管理评论和用户*/
+.delete_com, .delete_user, .gag, .del_gag, .delete_group, .delete_star {
+	float:left;
+	height:20px;
+	line-height:20px;
+	background:#373934;
+	padding:0 4px 0 4px;
+	margin-left:15px;
+	cursor:pointer;
+	color:#fff;
+}
+/*headcovered*/
+.head1{ 
+   position: absolute;
+   display: block;
+   height: 100px;
+   width:90px;
+   margin-top:-120px;
+   margin-left: 200px;
+}
+.head2{ 
+   position: absolute;
+   display: block;
+   height: 136px;
+   width:836px;
+   margin:-120px 0px 0px 277px;
+   z-index:2;
+}

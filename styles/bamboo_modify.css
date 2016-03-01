@@ -1,0 +1,158 @@
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.png) ;
+}
+#header{
+	width: 100%;
+	position:fixed;
+	background: url(../images/bamboo6.png) center top no-repeat;
+	top:0;
+	left: 0;
+	z-index: 1000;
+}
+#header_area{
+	width: 920px;
+	height: 120px;
+	margin: 0 auto;
+}
+#top{
+	width: 100%;
+	height: 100px;
+}
+#logo{
+	width:160px;
+	height:100px;
+	margin: 0 auto;
+	background: url(../images/logo.png) no-repeat;
+	position:relative;
+}
+#logo a{
+	display: block;
+	width:160px;
+	height:100px;
+}
+
+#body_bg{
+	width: 100%;
+	height: 400px;
+	background: url(../images/bamboo6.png) center top no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.member_header ul li.h_select {
+	background:url(../images/member_nav.png) -120px -100px no-repeat;
+}
+.member_header ul li.h_select:hover {
+	background:url(../images/member_nav.png) -120px -100px no-repeat;
+}
+
+.modify_area {
+	width:916px;
+	min-height:500px;
+	background:#dedede;
+	border:2px solid #373934;
+	margin-top:20px;
+}
+.modify_title {
+	width:916px;
+	height:30px;
+	background:#373934;
+	font-family:"Microsoft Yahei" !important;
+	font-size:18px !important;
+	font-weight:bold !important;
+	line-height:30px;
+	color:#fff !important;
+	text-align: center;
+}
+.show_ico {
+	width:25px;
+	height:25px;
+	float:left;
+	background:url(../images/show_ico.png) no-repeat;
+	margin:2px 10px 0 420px;
+}
+/*.up_title {
+	width:656px;
+	height:30px;
+	background:#363636;
+	font-family:"Microsoft Yahei" !important;
+	font-size:18px !important;
+	font-weight:bold !important;
+	line-height:30px;
+	color:#fff !important;
+	margin-bottom:10px;
+}*/
+/*编辑器*/
+.modify_area form {
+	background:#dedede;
+	padding-left:135px;
+	padding-right:135px;
+}
+.modify_area form select {
+	width:120px;
+	height:30px;
+	margin:20px 0 20px 2px;
+	border:1px solid #a42c6a;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	color:#a42c6a;
+	padding-left:5px;
+}
+.title_b, .title_f {
+	width:480px;
+	height:28px;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	padding:0 4px !important;
+	text-align:center;
+	color:#a42c6a;
+}
+.title_b {
+	border:1px solid #999;
+	color:#000 !important;
+}
+.title_f {
+	border:1px solid #a42c6a;
+}
+/*发布按钮*/
+.submit {
+	display:block;
+	width:120px;
+	height:30px;
+	margin:20px auto;
+	text-align:center;
+	background:#373934;
+	color:#fff !important;
+	line-height:30px;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+.submit:hover {
+	background:#272C1A;
+}
+.head1{ 
+   position: absolute;
+   display: block;
+   height: 100px;
+   width:90px;
+   margin-top:-120px;
+   margin-left: 200px;
+}
+.head2{ 
+   position: absolute;
+   display: block;
+   height: 136px;
+   width:836px;
+   margin:-120px 0px 0px 273px;
+   z-index: 2;
+}

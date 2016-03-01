@@ -1,0 +1,253 @@
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.png) ;
+}
+#header{
+	width: 100%;
+	position:fixed;
+	background: url() center top no-repeat;
+	top:0;
+	left: 0;
+	z-index: 1102;
+}
+#header_area{
+	width: 920px;
+	height: 120px;
+	margin: 0 auto;
+}
+#top{
+	width: 100%;
+	height: 100px;
+}
+#logo{
+	width:160px;
+	height:100px;
+	margin: 0 auto;
+	background: url() no-repeat;
+	position:relative;
+}
+#logo a{
+	display: block;
+	width:160px;
+	height:100px;
+}
+
+#body_bg{
+	width: 100%;
+	height: 400px;
+	background: url() center top no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.member_header ul li.h_select {
+	background:url(../images/member_nav.png) -120px -200px no-repeat;
+}
+.member_header ul li.h_select:hover {
+	background:url(../images/member_nav.png) -120px -200px no-repeat;
+}
+
+/*左部*/
+.member_left {
+	width:250px;
+	min-height:500px;
+	float:left;
+	background:#dedede;
+	border:2px solid #373934;
+	margin-top: 20px;
+}
+.left_title {
+	width:250px;
+	height:30px;
+	background-color:#373934;
+	text-align:center;
+	font-family:"Microsoft Yahei" !important;
+	font-size:16px !important;
+	font-weight:bold !important;
+	line-height:30px;
+	color:#fff !important;
+}
+.bamboo_list {
+	width:230px;
+	height:160px;
+	margin:0 auto;
+}
+.bamboo_title {
+	margin-top:5px;
+	text-align:center;
+	width:190px;
+	float:left;
+}
+.bamboo_title a {
+	color:#373934;
+	font-size:14px;
+	font-weight:bold;
+}
+.modify {
+	width:40px;
+	height:20px;
+	line-height:20px;
+	background:#373934;
+	text-align:center;
+	color:#fff;
+	float:right;
+	position:relative;
+	top:5px;
+	right:0px;
+	display:none;
+}
+.show_img {
+	width:200px;
+	height: 100px;
+	margin-left: 200px;
+	margin-top: -14px;
+}
+.show_img img {
+	display:block;
+	width:200px;
+	height:100px;
+	border:1px solid #373934;
+	margin:0 auto;
+	position:relative;
+	top:3px;
+}
+.show_img img:hover {
+	opacity:0.7;
+}
+.bamboo_type {
+	float:left;
+	position:relative;
+	top:8px;
+	left:20px;
+}
+.bamboo_time {
+	float:right;
+	position:relative;
+	top:8px;
+	right:20px;
+}
+.sad_face {
+	display:block;
+	margin:20px auto;
+}
+.no_show {
+	width:160px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	margin:30px auto;
+	color:#363636;
+}
+
+/*右部*/
+.member_right {
+	width:656px;
+	min-height:540px;
+	background:#dedede;
+	margin:20px 0 0 260px;
+	border:2px solid #373934;
+}
+.up_title {
+	width:656px;
+	height:30px;
+	background:#373934;
+	font-family:"Microsoft Yahei" !important;
+	font-size:18px !important;
+	font-weight:bold !important;
+	line-height:30px;
+	color:#fff !important;
+	text-align: center;
+}
+.up_note {
+	width:660px;
+	height:26px;
+	padding:12px;
+	margin:0 auto;
+	color:#666;
+	font-size:14px;
+}
+/*编辑器*/
+.member_right form {
+	background:#dedede;
+	padding-left:6px;
+}
+.member_right form select {
+	width:120px;
+	height:30px;
+	margin:0 0 20px 2px;
+	border:1px solid #373934;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	color:#373934;
+	padding-left:5px;
+}
+.title_b, .title_f {
+	width:260px;
+	height:28px;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	padding:0 4px !important;
+	text-align:center;
+	color:#373934;
+}
+.cost{
+	width:120px;
+	height:28px;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	padding:0 4px !important;
+	text-align:center;
+	color:#373934;
+	border:1px solid #373934;
+}
+.title_b {
+	border:1px solid #373934;
+	color:#373934 !important;
+}
+.title_f {
+	border:1px solid #373934;
+}
+/*发布按钮*/
+.submit {
+	display:block;
+	width:120px;
+	height:36px;
+	margin:20px auto;
+	text-align:center;
+	background:#373934;
+	color:#fff !important;
+	line-height:36px;
+	font-family:"Microsoft Yahei" !important;
+	font-size:14px !important;
+	cursor:pointer;
+	letter-spacing:5px;
+}
+.submit:hover {
+	background:#2b1605;
+}
+/*headcovered*/
+.head1{ 
+   position: absolute;
+   display: block;
+   height: 100px;
+   width:90px;
+   margin-top:-120px;
+   margin-left: 200px;
+}
+.head2{ 
+   position: absolute;
+   display: block;
+   height: 136px;
+   width:836px;
+   margin:-120px 0px 0px 277px;
+   z-index:2;
+}

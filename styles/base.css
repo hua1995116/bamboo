@@ -1,0 +1,134 @@
+
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+body {
+	font-family:"Microsoft Yahei",verdana, arial, helvetica, sans-serif;
+	font-size:12px;
+}
+ul,li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border:none;
+}
+
+.clear{
+	clear:both;
+}
+
+/*头部遮罩*/
+#header_cover {
+	width:920px;
+	height:170px;
+	position:fixed;
+	z-index:1101;
+	top:0;
+	background: url(../images/bg.png) fixed;
+}
+#header_cover_small {
+	width:920px;
+	height:140px;
+	position:fixed;
+	z-index:1101;
+	top:0;
+	background: url(../images/bg.png) fixed;
+}
+
+/*分页*/
+#page_num {
+	height:20px;
+	clear:both;
+	padding:10px 0;
+	position:relative;
+	font-size:12px;
+}
+#page_num ul {
+	position:absolute;
+	right:30px;
+	height:20px;
+}
+#page_num ul li {
+	float:left;
+	width:26px;
+	height:20px;
+}
+#page_num ul li a {
+	display:block;
+	width:20px;
+	height:20px;
+	color:#a42c6a;
+	line-height:20px;
+	border:1px solid #373934;
+	text-align:center;
+	text-decoration:none;
+}
+#page_num ul li a:hover,#page_num ul li a.selected {
+	background:#373934;
+	font-weight:bold;
+	color:#fff;
+}
+#page_num ul li.no_page {
+	width:50px;
+	cursor:pointer;
+}
+#page_num ul li.no_page a {
+	width:44px;
+	color:#999;
+}
+#page_num ul li.no_page a:hover,#page_num ul li.no_page a.selected {
+	background:#fff;
+	font-weight:normal;
+	color:#999;
+}
+#page_num ul li.turn_page {
+	width:46px;
+}
+#page_num ul li.turn_page a {
+	width:40px;
+}
+#page_text {
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	font-size:12px;
+}
+#page_text ul {
+	text-align:center;
+}
+#page_text ul li {
+	display:inline;
+}
+#page_text ul li a {
+	color:#333;
+}
+#page_text ul li a:hover {
+	text-decoration:none;
+}
+
+/*返回顶部*/
+#elevator {
+	display: none;
+	width: 50px;
+	height: 50px;
+	background: url(../images/ico/icon_top.png) no-repeat;
+	cursor: pointer;
+	position: fixed;
+	bottom: 90px;
+	margin:0 0 -50px -45px;
+}
+#elevator:hover {
+	background:url(../images/ico/icon_top.png) 0 50px;
+}
+#elevator:active {
+	background-color: rgba(0,0,0,.75)
+}

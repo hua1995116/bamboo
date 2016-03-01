@@ -1,0 +1,111 @@
+
+
+.hide_nav_block{
+	width: 50px;
+	height: 50px;
+	background: url(../images/ico/nav.png) no-repeat;
+	position:fixed;
+	bottom: 0px;
+	z-index: 1200;
+}
+.hide_nav {
+	width:180px;
+	height:auto;
+	background-color:#fff;
+	float:left;
+	position:fixed;
+	bottom: 0px;
+	left: -200px;
+	z-index:999;
+}
+.hide_nav .nav_title {
+	width:180px;
+	height:40px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	line-height:40px;
+	background:#a42c6a;	/*控制*/
+	color:#fff;
+}
+.hide_nav .sidebar{
+	width:166px;
+	background:#fff;
+	border:7px solid #a42c6a;	/*控制*/
+}
+.hide_nav .sidelist{
+	position:relative;
+	z-index:1;
+	height:40px;
+	width:166px;
+}
+.hide_nav .sidelist span h3{
+	position:relative;
+	z-index:2;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	font-weight:normal;
+	background-repeat:no-repeat;
+	background-position:-166px 0;
+}
+.hide_nav .sidelist span h3 a{
+	font-size:14px;
+	text-decoration:none;
+	display:block;
+	width:166px;
+	text-align:center;
+	height:auto;
+	color:#000;
+	font-weight:bold;
+	height: 40px;
+}
+.hide_nav .sidelist span h3 a:hover{
+	color:#fff;
+	cursor: pointer;
+}
+
+.hide_nav .nav_0{
+	background: url(../images/left_bg.png) 0 0 no-repeat;
+}
+.hide_nav .nav_1{
+	background: url(../images/left_bg.png) 0 -80px no-repeat;
+}
+.hide_nav .nav_2{
+	background: url(../images/left_bg.png) 0 -160px no-repeat;
+}
+.hide_nav .nav_3{
+	background: url(../images/left_bg.png) 0 -240px no-repeat;
+}
+.hide_nav .nav_4{
+	background: url(../images/left_bg.png) 0 -320px no-repeat;
+}
+.hide_nav .nav_5{
+	background: url(../images/left_bg.png) 0 -400px no-repeat;
+}
+
+.hide_nav .other_nav{
+	background: url(../images/nav_bottom_bg.png) no-repeat;
+}
+.hide_nav .nav_6{
+	background: url(../images/nav_bottom.png) 0 0 no-repeat;
+}
+.hide_nav .nav_6:hover{
+	background:#FD91FD url(../images/nav_bottom.png) 0 -40px no-repeat;
+}
+.hide_nav .nav_7{
+	background: url(../images/nav_bottom.png) -166px 0 no-repeat;
+}
+.hide_nav .nav_7:hover{
+	background:#FD91FD url(../images/nav_bottom.png) -166px -40px no-repeat;
+}
+.hide_nav .nav_8{
+	background: url(../images/nav_bottom.png) -332px 0 no-repeat;
+}
+.hide_nav .nav_8:hover{
+	background:#FD91FD url(../images/nav_bottom.png) -332px -40px no-repeat;
+}
+
+.show_nav_a:hover {
+	background:#fff;
+}
